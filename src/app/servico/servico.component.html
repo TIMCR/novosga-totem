@@ -1,0 +1,11 @@
+<h2>PARA QUAL SERVIÇO?</h2>
+<div *ngFor="let servico of servicos">
+  <div *ngIf="id == servico.secretaria.id">
+    <div *ngIf="servico.prioridade">
+      <a routerLink="/tipoatendimento/{{servico.servico.id}}" class="btn btn-light">{{servico.servico.nome}}</a>
+    </div>
+    <div *ngIf="!servico.prioridade">
+      <a routerLink="/imprimindo/{{servico.servico.id}}/1" class="btn btn-light">{{servico.servico.nome}}</a>
+    </div>
+  </div>
+</div>

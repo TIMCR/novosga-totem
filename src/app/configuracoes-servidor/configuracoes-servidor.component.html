@@ -1,0 +1,36 @@
+<h1>CONFIGURAÇÕES</h1>
+<div id="configs">
+  <h5>SERVIDOR</h5>
+  <div class="form-group">
+    <label for="url">URL do Servidor</label>
+    <input type="text" class="form-control" id="url" placeholder="http://****.***" value="{{servidor.url}}">
+  </div>
+  <div class="form-group">
+    <label for="client_id">Client ID</label>
+    <input type="text" class="form-control" id="client_id" value="{{servidor.client_id}}">
+  </div>
+  <div class="form-group">
+    <label for="client_secret">Client Secret</label>
+    <input type="text" class="form-control" id="client_secret" value="{{servidor.client_secret}}">
+  </div>
+  <hr/>
+  <h5>CREDENCIAIS</h5>
+  <div class="form-group">
+    <label for="user">Usuário</label>
+    <input type="text" class="form-control" id="user" value="{{credenciais.user}}">
+  </div>
+  <div class="form-group">
+    <label for="password">Senha</label>
+    <input type="password" class="form-control" id="password" value="{{credenciais.password}}">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 columns">
+        <a routerLink="/configuracao" class="btn btn-light">VOLTAR</a>
+      </div>
+      <div class="col-md-6 columns">
+        <button type="button" class="btn btn-light bg-success" (click)="save()">SALVAR</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<h1>IMPRIMINDO SUA SENHA...</h1>
+<h2>POR FAVOR, AGUARDE...</h2>
+<div>
+  <h2>{{getServico().servico.nome}}</h2>
+  <h2 *ngIf="prioridade == 1">NORMAL</h2>
+  <h2 *ngIf="prioridade == 4">DEFICIENTE FÍSICO, MENTAL OU VISUAL</h2>
+  <h2 *ngIf="prioridade == 5">GESTANTES</h2>
+  <h2 *ngIf="prioridade == 2">IDOSOS ACIMA DE 60 ANOS</h2>
+  <h2 *ngIf="prioridade == 7">IDOSOS ACIMA DE 80 ANOS</h2>
+  <h2 *ngIf="prioridade == 6">LACTANTES</h2>
+  <h2 *ngIf="prioridade == 3">PESSOAS COM CRIANÇA DE COLO</h2>
+  <h2 *ngIf="prioridade == 8">OBESOS</h2>
+  <h1>{{senha_codigo}}</h1>
+  <iframe id="frame-impressao" width="0" height="0" border="0" [srcdoc]="displayString"></iframe>
+</div>

@@ -1,0 +1,107 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'Red Ring';
+    src: url('assets/fonts/red_ring_bold-webfont.woff2') format('woff2'),
+         url('assets/fonts/red_ring_bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Red Ring';
+    src: url('assets/fonts/red_ring_medium-webfont.woff2') format('woff2'),
+         url('assets/fonts/red_ring_medium-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Red Ring';
+    src: url('assets/fonts/redring-black-webfont.woff2') format('woff2'),
+         url('assets/fonts/redring-black-webfont.woff') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Red Ring';
+    src: url('assets/fonts/redring-light-webfont.woff2') format('woff2'),
+         url('assets/fonts/redring-light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Red Ring';
+    src: url('assets/fonts/redring-regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/redring-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#root, body, app-root{
+    max-width: 100vw;
+    background: #064106;
+    font-family: 'Red Ring', Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+H1,H2,H3,H4,H5,H6{
+    font-weight: bold;
+    text-align: center;
+}
+
+#esquerdo{
+    width: 33.3% !important;
+    height: 100vh;
+    max-height: 100vh !important;
+    background: #bfffbf;
+
+    position: relative;
+}
+#esquerdo img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#direito{
+    width: 66.7% !important;
+    height: 100vh;
+    max-height: 100vh !important;
+    background: #064106;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn-light, .btn-danger{
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 10vh;
+    margin: 10px 0;
+}
+.btn-light{
+    color: #064106 !important;
+}
+.btn-danger{
+    color: #fff;
+    background: red;
+}

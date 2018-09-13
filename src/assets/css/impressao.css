@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Red Ring';
+    src: url('assets/fonts/red_ring_bold-webfont.woff2') format('woff2'),
+         url('assets/fonts/red_ring_bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Red Ring';
+    src: url('assets/fonts/red_ring_medium-webfont.woff2') format('woff2'),
+         url('assets/fonts/red_ring_medium-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Red Ring';
+    src: url('assets/fonts/redring-black-webfont.woff2') format('woff2'),
+         url('assets/fonts/redring-black-webfont.woff') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Red Ring';
+    src: url('assets/fonts/redring-light-webfont.woff2') format('woff2'),
+         url('assets/fonts/redring-light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Red Ring';
+    src: url('assets/fonts/redring-regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/redring-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family: 'Red Ring', Arial, Helvetica, sans-serif;
+}

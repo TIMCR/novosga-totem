@@ -1,0 +1,21 @@
+div{
+    width: 95%;
+    border-radius:25px;
+    background: #fff;
+    padding: 50px 10px;
+}
+div h1,
+div h2,
+div h3,
+div h4,
+div h5,
+div h6{
+    color: #064106;
+    text-transform: uppercase !important;
+}
+div h1{
+    font-size: 5rem;
+}
+.btn{
+    text-transform: uppercase !important;
+}

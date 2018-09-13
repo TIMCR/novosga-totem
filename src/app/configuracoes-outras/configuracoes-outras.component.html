@@ -1,0 +1,18 @@
+<h1>CONFIGURAÇÕES</h1>
+<div id="configs">
+  <h5>OUTRAS CONFIGURAÇÕES</h5>
+  <div class="form-group">
+    <label for="nome">Nome da Entidade/Empresa</label>
+    <input type="text" class="form-control" id="nome" placeholder="Nome da Entidade/Empresa" value="{{entidade.nome}}">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 columns">
+        <a routerLink="/configuracao" class="btn btn-light">VOLTAR</a>
+      </div>
+      <div class="col-md-6 columns">
+        <button type="button" class="btn btn-light bg-success" (click)="save()">SALVAR</button>
+      </div>
+    </div>
+  </div>
+</div>
