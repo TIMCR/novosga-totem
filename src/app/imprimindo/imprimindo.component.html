@@ -11,5 +11,8 @@
   <h2 *ngIf="prioridade == 3">PESSOAS COM CRIANÇA DE COLO</h2>
   <h2 *ngIf="prioridade == 8">OBESOS</h2>
   <h1>{{senha_codigo}}</h1>
-  <iframe id="frame-impressao" width="0" height="0" border="0" [srcdoc]="displayString"></iframe>
+  <iframe id="frame-impressao" width="0" height="0" border="0" [srcdoc]="displayString"></iframe><audio id="audio">
+    <source src="assets/imprimindo.ogg" type="audio/ogg" autoplay="autoplay">
+    Seu navegador não suporta a tag audio.
+  </audio>
 </div>

@@ -38,6 +38,10 @@ export class ImprimindoComponent implements OnInit {
     this.prioridade = +this.route.snapshot.paramMap.get('prioridade');
     this.servicos = JSON.parse(localStorage.getItem("totem.servicos_selecionados"));
     this.entidade = JSON.parse(localStorage.getItem("totem.entidade"));
+    
+    var audio = jQuery("#audio").get(0);
+    audio.volume = 0.25;
+    audio.play();
   }
   getServico() {
     var servico: any = "";
